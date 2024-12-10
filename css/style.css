@@ -142,6 +142,30 @@ header .ham-burger.active span:nth-child(2){
 }
 
 /*Home section*/
+.home .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.home .btn {
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: #ff2b4a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+	align-self: center;
+}
+
+.home .btn:hover {
+    background-color: #e6193b;
+    transform: scale(1.05);
+}
 .home{
 	height: 100vh;
 	background-image: url('../images/Get\ Right\ Training\ Home\ \(2\).png');
