@@ -4,7 +4,7 @@ This repository contains the source code for a personal training gym, implemente
 
 ## Preview
 <div align="center">
-    <a href="https://www.gabrielsotodev.com/" target="_blank""><img src="./images/websiteview.png" align="center" width="1000px" alt="Get Right Training Site Preview"></a>
+    <a href="https://www.gabrielsotodev.com/" target="_blank""><img src="/images/websiteview.png" align="center" width="1000px" alt="Get Right Training Site Preview"></a>
 </div>
 
 
