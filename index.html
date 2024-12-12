@@ -361,13 +361,18 @@
      <div class="container">
         <div class="content">
             <div class="box form wow slideInLeft">
-               <form>
-                  <input type="text" placeholder="Enter Name">
-                  <input type="text" placeholder="Enter Email">
-                  <input type="text" placeholder="Enter Mobile">
-                  <textarea placeholder="Enter Message"></textarea>
+               <form action="https://api.web3forms.com/submit" method="POST">
+		  <input type="hidden" name="access_key" value="2238c83a-2b45-49e7-8f0b-58d66eaa4ee4">
+		  <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+		  <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                  <input type="text" placeholder="Enter Name" required>
+                  <input type="text" placeholder="Enter Email" required>
+                  <input type="text" placeholder="Enter Mobile" required>
+                  <textarea placeholder="Enter Message" required></textarea>
+		  <div class="h-captcha" data-captcha="true"></div>
                   <button type="submit">Send Message</button>
                </form>
+	       <script src="https://web3forms.com/client/script.js" async defer></script> 
             </div>
             <div class="box text wow slideInRight">
                  <h2>Get Connected with US</h2>
