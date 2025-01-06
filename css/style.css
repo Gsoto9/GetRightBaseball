@@ -266,6 +266,22 @@ header .ham-burger.active span:nth-child(2){
 	margin:0;
 	font-family: 'Open Sans', sans-serif;
 }
+.about h2{
+	font-size: 30px;
+	font-weight: 500;
+	color:#000000;
+	padding: 0px 0px 20px;
+	text-align: center;
+}
+.about .title-p{
+	font-size: 15px;
+	line-height: 20px;
+	color:#222222;
+	margin:0;
+	text-align: center;
+	padding:0 20% 50px;
+	font-family: 'Open-sans', sans-serif;
+   }
 
 
 /*Service Section*/
@@ -427,6 +443,9 @@ header .ham-burger.active span:nth-child(2){
 .classes .content .class-items .item:nth-child(4){
 	background-color: #c11325;
 }
+.classes .content .class-items .item:nth-child(5){
+	background-color: #222222;
+}
 .classes .content .class-items .item .item-text{
 	padding: 15px;
 	display: flex;
@@ -473,6 +492,11 @@ header .ham-burger.active span:nth-child(2){
 .classes .content .class-items .item:nth-child(4) .item-img .price{
 	background-color: #222222;
 	right:0;
+	top:0;
+}
+.classes .content .class-items .item:nth-child(5) .item-img .price{
+	background-color: #c11325;
+	left:0;
 	top:0;
 }
 .classes .content .class-items .item .item-text h4{
