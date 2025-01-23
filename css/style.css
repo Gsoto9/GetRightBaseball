@@ -283,6 +283,69 @@ header .ham-burger.active span:nth-child(2){
 	font-family: 'Open-sans', sans-serif;
    }
 
+/* About section for membership without trainer*/
+.about1{
+	padding:80px 0px;
+	background-color:#ffffff;
+}
+
+.about1 .content{ 
+ -webkit-display: flex;
+ display: flex;
+}
+.about1 .content .box{
+	flex:0 0 33.33%;
+	max-width: 33.33%;
+	padding:15px;
+}
+.about1 .content .box .inner{
+	background-color:#c11325;
+}
+.about1 .content .box:nth-child(2) .inner{
+	background-color: #222222;
+}
+.about1 .content .box .inner .img img{
+	width: 100%;
+}
+.about1 .content .box .inner .text{
+	padding:30px;
+}
+
+.about1 .content .box .inner .text h4{
+  font-size: 20px;
+  margin:0;
+  padding: 0px 0px 15px;
+  font-weight: 500;
+  color:#ffffff;
+ text-transform: capitalize;
+  text-align: center;
+}
+.about1 .content .box .inner .text p{
+	font-size: 15px;
+	line-height:20px;
+	color:#ffffff;
+	text-align: center;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+.about1 h2{
+	font-size: 30px;
+	font-weight: 500;
+	color:#000000;
+	padding: 0px 0px 20px;
+	text-align: center;
+}
+.about1 .title-p{
+	font-size: 15px;
+	line-height: 20px;
+	color:#222222;
+	margin:0;
+	text-align: center;
+	padding:0 20% 50px;
+	font-family: 'Open-sans', sans-serif;
+   }
+
+
 
 /*Service Section*/
 .service{
