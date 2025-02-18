@@ -651,6 +651,59 @@ header .ham-burger.active span:nth-child(2){
 	border-color: #ffffff;
 	background-color: transparent;
 }
+/*Start Today Section1*/
+.start-today1{
+	background-color: #1f59c5;
+}
+
+.start-today1 .content{
+	-webkit-display: center;
+	display: center;
+	align-items: center;
+}
+
+.start-today1 .content .box{
+	flex:0 0 50%;
+	max-width: 100%;
+	padding:0px 15px;
+}
+
+.start-today1 .content .text h2{
+	font-size: 30px;
+    font-weight: 500;
+    color: #ffffff;
+    padding: 0px 0px 20px;
+}
+
+.start-today1 .content .text p{
+	font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    margin: 0;
+    padding: 0px 0px 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.start-today1 .content .text .btn{
+	padding: 8px 35px;
+    background-color: #c11325;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid transparent;
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.start-today1 .content .text .btn:hover{
+	color:#ffffff;
+	border-color: #ffffff;
+	background-color: transparent;
+}
 
 
 
