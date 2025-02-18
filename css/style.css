@@ -1140,6 +1140,13 @@ header .ham-burger.active span:nth-child(2){
     flex: 0 0 100%;
     max-width: 100%;
 }
+.about1 .content{
+	flex-wrap: wrap;
+}
+.about1 .content .box {
+ flex: 0 0 100%;
+ max-width: 100%;
+}
 .service .content{
 	flex-wrap: wrap;
 }
