@@ -509,6 +509,9 @@ header .ham-burger.active span:nth-child(2){
 .classes .content .class-items .item:nth-child(5){
 	background-color: #222222;
 }
+.classes .content .class-items .item:nth-child(6){
+	background-color: #c11325;
+}
 .classes .content .class-items .item .item-text{
 	padding: 15px;
 	display: flex;
@@ -560,6 +563,11 @@ header .ham-burger.active span:nth-child(2){
 .classes .content .class-items .item:nth-child(5) .item-img .price{
 	background-color: #c11325;
 	left:0;
+	top:0;
+}
+.classes .content .class-items .item:nth-child(6) .item-img .price{
+	background-color: #222222;
+	right:0;
 	top:0;
 }
 .classes .content .class-items .item .item-text h4{
