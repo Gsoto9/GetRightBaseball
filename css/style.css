@@ -573,6 +573,11 @@ header .ham-burger.active span:nth-child(2){
 	right:0;
 	top:0;
 }
+.classes .content .class-items .item:nth-child(7) .item-img .price{
+	background-color: #c11325;
+	left:0;
+	top:0;
+}
 .classes .content .class-items .item .item-text h4{
 	font-size: 20px;
     margin: 0;
